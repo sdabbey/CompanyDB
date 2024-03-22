@@ -1,0 +1,3 @@
+USE CompanyDB
+ALTER TABLE Employee
+ADD CONSTRAINT Dno_fk FOREIGN KEY(Dno) REFERENCES Department(Dnumber)
