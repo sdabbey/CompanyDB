@@ -1,4 +1,4 @@
-Use CompanyDB
+USE CompanyDB
 SELECT Fname, Lname, Bdate, Haddress
-From Employee 
-Where Fname = 'John' And Minit = 'B' And Lname = 'Smith';
+FROM Employee 
+WHERE Fname = 'John'  And Minit = 'B' And Lname = 'Smith';

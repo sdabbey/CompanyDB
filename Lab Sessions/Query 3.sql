@@ -1,4 +1,4 @@
 Use CompanyDB
-SELECT Fname, Lname, Bdate, Haddress
+SELECT Fname, Lname, Minit, Bdate, Haddress
 From Employee 
 Where Minit = 'B';
