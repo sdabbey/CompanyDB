@@ -5,7 +5,8 @@ SELECT
     e.Fname,
     e.Lname,
     d.Dname AS Department_Name,
-    DATEDIFF(YEAR, e.Bdate, GETDATE()) AS Age
+    DATEDIFF(YEAR, e.Bdate, GETDATE()) AS Age,
+    e.Bdate
 FROM 
     Employee e
 JOIN
