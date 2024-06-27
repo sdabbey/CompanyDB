@@ -1,3 +1,4 @@
+Use companyDB
 SELECT Pnumber, Pname, COUNT(*)
 FROM Project, Works_on
 WHERE Pnumber=Pno
