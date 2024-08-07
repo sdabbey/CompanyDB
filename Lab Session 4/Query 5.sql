@@ -1,3 +1,4 @@
+Use companyDB
 SELECT 
     CONCAT(E.Fname, ' ', E.Minit, ' ', E.Lname) AS EmployeeName,
     CONCAT(S.Fname, ' ', S.Minit, ' ', S.Lname) AS SupervisorName,
